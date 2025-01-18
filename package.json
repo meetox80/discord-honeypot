@@ -1,0 +1,25 @@
+{
+  "name": "discord-honeypot",
+  "version": "1.0.0",
+  "description": "Node.js bot built on top of Eris to catch scam advertisements",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "start:dev": "nodemon main.js"
+  },
+  "keywords": [
+    "honeypot",
+    "eris",
+    "nodejs",
+    "discord",
+    "bot"
+  ],
+  "author": "nullptr",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "eris": "^0.18.0",
+    "nodemon": "^3.1.9"
+  }
+}
